@@ -1,0 +1,6 @@
+[
+  {
+    "_note": "Este archivo se generara automaticamente al ejecutar run_all.py con una OPENAI_API_KEY valida.",
+    "_instrucciones": "1. Copia .env.example a .env  2. Agrega tu OPENAI_API_KEY  3. Ejecuta: python run_all.py"
+  }
+]

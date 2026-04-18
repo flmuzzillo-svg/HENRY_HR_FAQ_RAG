@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+.vscode/
+outputs/*.json
+!outputs/sample_queries.json
+.vscode/
+.DS_Store

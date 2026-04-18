@@ -1,0 +1,77 @@
+[
+  {
+    "user_question": "Cuantos dias de vacaciones tengo en mi primer anio y como se acumulan?",
+    "system_answer": "En tu primer año de servicio tienes derecho a **15 días hábiles de vacaciones**.\n\nLos días de vacaciones que no utilices pueden **transferirse al siguiente año fiscal**, pero solo puedes acumular **hasta 5 días**.  \nSi el saldo excede esos 5 días, el exceso se **compensa económicamente** al final del año fiscal, calculado como el salario diario multiplicado por un factor de **1.2**.",
+    "chunks_related": [
+      {
+        "chunk_index": 1,
+        "content": "1. POLÍTICA DE VACACIONES Y DÍAS LIBRES\n---------------------------------------\n\nTodos los empleados de tiempo completo tienen derecho a un mínimo de 15 días hábiles de vacaciones anuales durante su primer año de servicio. A partir del segundo año, se otorgan 2 días adicionales por cada año de antigüedad, hasta un máximo de 25 días hábiles anuales. Los empleados a tiempo parcial reciben vacaciones proporcionales según sus horas contratadas.",
+        "source": "faq_document.txt"
+      },
+      {
+        "chunk_index": 1,
+        "content": "1. POLÍTICA DE VACACIONES Y DÍAS LIBRES\n---------------------------------------\n\nTodos los empleados de tiempo completo tienen derecho a un mínimo de 15 días hábiles de vacaciones anuales durante su primer año de servicio. A partir del segundo año, se otorgan 2 días adicionales por cada año de antigüedad, hasta un máximo de 25 días hábiles anuales. Los empleados a tiempo parcial reciben vacaciones proporcionales según sus horas contratadas.",
+        "source": "faq_document.txt"
+      },
+      {
+        "chunk_index": 3,
+        "content": "Los días de vacaciones no utilizados pueden transferirse al siguiente año fiscal, con un límite máximo de acumulación de 5 días. Los días que excedan este límite serán compensados económicamente al finalizar el año fiscal a un valor equivalente al salario diario del empleado multiplicado por un factor de 1.2.",
+        "source": "faq_document.txt"
+      }
+    ],
+    "evaluation": {
+      "score": -1,
+      "reason": "Error al parsear la respuesta del juez: {\n    \"score\": 10,\n    \"reason\": \"La respuesta cubre exactamente los 15 días hábiles de vacaciones del primer año y explica que los días no usados pueden transferirse al siguiente año fiscal con un lí"
+    }
+  },
+  {
+    "user_question": "Cual es el proceso de onboarding para nuevos empleados y cuanto dura?",
+    "system_answer": "El proceso de onboarding para nuevos empleados tiene una duración de **30 días calendario** y está estructurado en **cuatro fases principales**.\n\n- **Fase 1 – Pre‑ingreso (7 días antes del inicio):** Recursos Humanos envía al nuevo empleado un kit de bienvenida digital (manual del empleado, formularios de alta, instrucciones para configurar cuentas corporativas y cronograma de la primera semana) y se le asigna un *buddy* (compañero mentor) del mismo equipo, quien lo acompañará durante sus primeros **90 días**.",
+    "chunks_related": [
+      {
+        "chunk_index": 9,
+        "content": "3. PROCESO DE ONBOARDING PARA NUEVOS EMPLEADOS\n------------------------------------------------\n\nEl proceso de incorporación de nuevos empleados tiene una duración de 30 días calendario y está dividido en cuatro fases principales.",
+        "source": "faq_document.txt"
+      },
+      {
+        "chunk_index": 9,
+        "content": "3. PROCESO DE ONBOARDING PARA NUEVOS EMPLEADOS\n------------------------------------------------\n\nEl proceso de incorporación de nuevos empleados tiene una duración de 30 días calendario y está dividido en cuatro fases principales.",
+        "source": "faq_document.txt"
+      },
+      {
+        "chunk_index": 10,
+        "content": "Fase 1 — Pre-ingreso (7 días antes del inicio): El equipo de Recursos Humanos envía al nuevo empleado un kit de bienvenida digital que incluye el manual del empleado, formularios de alta, instrucciones para configurar cuentas corporativas, y un cronograma detallado de la primera semana. Se asigna un buddy (compañero mentor) del mismo equipo que acompañará al empleado durante sus primeros 90 días.",
+        "source": "faq_document.txt"
+      }
+    ],
+    "evaluation": {
+      "score": 7,
+      "reason": "La respuesta cubre la duración del onboarding (30 días) y menciona que está dividido en cuatro fases, coincidiendo con los chunks. Detalla correctamente la fase 1 con los datos de pre‑ingreso, kit de bienvenida y buddy, sin errores de precisión. Sin embargo, no describe las tres fases restantes, por lo que la respuesta es parcialmente incompleta respecto al proceso completo solicitado."
+    }
+  },
+  {
+    "user_question": "Que beneficios de salud y bienestar ofrece la empresa?",
+    "system_answer": "La empresa brinda los siguientes beneficios de salud y bienestar:\n\n- **Cobertura médica integral** para el empleado y su grupo familiar directo (cónyuge e hijos menores de 26 años), que incluye:\n  - Consultas médicas  \n  - Estudios de diagnóstico  \n  - Internaciones  \n  - Cirugías programadas y de urgencia  \n  - Tratamientos odontológicos básicos  \n  - Cobertura oftalmológica con lentes correctivos cada **2 años**  \n\n- **Acceso gratuito a una plataforma de bienestar mental** con sesiones ilimitadas de terapia psicológica online.",
+    "chunks_related": [
+      {
+        "chunk_index": 5,
+        "content": "2. PROGRAMA DE BENEFICIOS CORPORATIVOS\n---------------------------------------\n\nLa empresa ofrece un paquete integral de beneficios que incluye cobertura médica completa para el empleado y su grupo familiar directo (cónyuge e hijos menores de 26 años). El plan de salud cubre consultas médicas, estudios de diagnóstico, internaciones, cirugías programadas y de urgencia, tratamientos odontológicos básicos, y cobertura oftalmológica incluyendo lentes correctivos cada 2 años.",
+        "source": "faq_document.txt"
+      },
+      {
+        "chunk_index": 5,
+        "content": "2. PROGRAMA DE BENEFICIOS CORPORATIVOS\n---------------------------------------\n\nLa empresa ofrece un paquete integral de beneficios que incluye cobertura médica completa para el empleado y su grupo familiar directo (cónyuge e hijos menores de 26 años). El plan de salud cubre consultas médicas, estudios de diagnóstico, internaciones, cirugías programadas y de urgencia, tratamientos odontológicos básicos, y cobertura oftalmológica incluyendo lentes correctivos cada 2 años.",
+        "source": "faq_document.txt"
+      },
+      {
+        "chunk_index": 8,
+        "content": "Como parte del paquete de beneficios, se ofrece un subsidio de transporte mensual equivalente al 50% del costo del abono de transporte público, un subsidio de almuerzo de $150 USD mensuales, y acceso gratuito a una plataforma de bienestar mental con sesiones ilimitadas de terapia psicológica online.\n\n\n3. PROCESO DE ONBOARDING PARA NUEVOS EMPLEADOS\n------------------------------------------------",
+        "source": "faq_document.txt"
+      }
+    ],
+    "evaluation": {
+      "score": 7,
+      "reason": "La respuesta cubre correctamente los beneficios de salud descritos en los fragmentos (cobertura médica integral, consultas, estudios, internaciones, cirugías, odontología y lentes cada 2 años) y menciona la plataforma de bienestar mental, con datos precisos y sin inventar información. Sin embargo, omite otros beneficios de bienestar presentes en los chunks, como el subsidio de transporte y el subsidio de almuerzo, que también podrían considerarse parte del paquete de bienestar. Por eso la respuesta es relevante y precisa pero no completamente completa."
+    }
+  }
+]

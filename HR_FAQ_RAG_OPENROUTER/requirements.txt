@@ -1,0 +1,20 @@
+# ==============================================================
+#  Dependencias del Sistema RAG de FAQs para HR (OpenRouter)
+#  Instalar con: pip install -r requirements.txt
+# ==============================================================
+
+# -- OpenAI SDK (usado como cliente compatible con OpenRouter) --
+openai>=1.12.0
+
+# -- LangChain (framework RAG) --
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# -- ChromaDB (base de datos vectorial local) --
+chromadb>=0.5.0
+langchain-chroma>=0.1.0
+
+# -- Utilidades --
+python-dotenv>=1.0.1
